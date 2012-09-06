@@ -21,7 +21,7 @@ in. After all, all the non-geeks I talked to about
 
 Of course, things often don't work out as a naive student thinks. The people I
 counted on weren't so in the mood of sharing like I had thought they would be.
-Who have came across the link on either Reddit or HackerNews, though, have also
+Who have come across the link on either Reddit or HackerNews, though, have also
 been very supportive and had great ideas. Nevertheless, none of them wanted to
 contribute their hard-earned cash to me.
 
