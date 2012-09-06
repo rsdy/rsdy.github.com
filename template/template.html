@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html><head>
+	<title>$title$</title>
+	<meta charset="utf-8" />
+	<link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+	<meta name="author" content="Peter Parkanyi">
+	<meta name="dcterms.date" content="$date-meta$">
+	<style type="text/css">
+header[id='bigone'] {
+	background-color: #222;
+	font-size: 1.2em;
+	border-bottom: 0.1em solid #F30085;
+	padding: 0.3em 1em;
+}
+header a:link, header a:visited { text-decoration: none; color: #F30085; }
+header a:hover { text-decoration: underline; }
+footer {
+	font-size: small;
+	padding: 1em 50px;
+	border-top: 0.1em solid #F30085;
+}
+#header-menu { float: right; }
+#content { width: 500px; padding-left: 50px; }
+body {
+	font-family: serif;
+	margin:0;
+	padding:0;
+}
+h1 { font-family: sans-serif; }
+	</style>
+</head>
+<body>
+	<header id='bigone'>
+		<a href="https://rhapsodhy.hu">rhapsodhy.hu</a>
+		<div id='header-menu'>
+			<a href="/index.html">posts</a>
+			<a href="http://github.com/rsdy">github</a>
+			<a href="http://twitter.com/rhapsodhy">twitter</a>
+		</div>
+	</header>
+	<div id="content">
+$if(article)$
+		<article>
+			<header><h1>$title$</h1><small>Published: <time datetime="$date-meta$" pubdate>$date$</time></small></header>
+$endif$
+$body$
+$if(article)$
+		</article>
+$endif$
+	</div>
+	<footer>
+	You may tell "but you're so wrong" by sending an email to <em>me at rhapsodhy.hu</em><br>
+	This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+	</footer>
+</body></html>
