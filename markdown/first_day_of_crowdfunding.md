@@ -1,4 +1,4 @@
-% What I learned after a the first day of my crowdfunding campaign (and not raising any money)
+% What I learned on the first day of my crowdfunding campaign, without funders
 % Peter Parkanyi
 % 06 September 2012
 
