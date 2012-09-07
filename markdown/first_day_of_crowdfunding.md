@@ -56,14 +56,14 @@ was still online, and not once did I mention those projects.
 
 I also realised that with [one apparent exception](http://techblog.vsza.hu),
 the people I know, and my closest friends are not going to contribute money to
-the project, with one apparent exception. That is fine, and I'm not blaming
-them. People in Hungary don't really buy stuff on the Internet with credit
-cards, let alone spend their money on something they won't receive within a
-week. I knew that all along. Friends supported me with words, and that's
-enough. But as the Indiegogo tips and tricks page mentioned, I should base 25%
-of my income on the family and closest friends, which is logical: they are
-supposed to be the ones who trust me enough to invest money in me, and with
-their contributions, they convince others to do so as well.
+the project. That is fine, and I'm not blaming them. People in Hungary don't
+really buy stuff on the Internet with credit cards, let alone spend their money
+on something they won't receive within a week. I knew that all along. Friends
+supported me with words, and that's enough. But as the Indiegogo tips and
+tricks page mentioned, I should base 25% of my income on the family and closest
+friends, which is logical: they are supposed to be the ones who trust me enough
+to invest money in me, and with their contributions, they convince others to do
+so as well.
 
 But why would they spend their money on me, when they have no interest in my
 project whatsoever? Even if they find the idea cool, it's not going to benefit
@@ -82,8 +82,8 @@ you are, the things that I screwed up:
 * if you can't rely on your family and friends to contribute money, people won't
   think this is a worthy project. When they see it isn't funded yet, they're most
   likely to just close the tab and move on.
-* if people think you're projects fascinating that doesn't mean they're going to
-  invest. You get positive responses, but not constructive criticism. Most
+* if people think your projects are fascinating that doesn't mean they're going
+  to invest. You get positive responses, but not constructive criticism. Most
   people wish you luck, but don't share. You need a reliable audience who
   reshare from the very beginning.
 * know who you are targeting. If your closest friends are not willing to
