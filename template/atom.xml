@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>rsdy.github.com feed</title>
+	<link href="http://rsdy.github.com/atom.xml" rel="self"/>
+	<link href="http://rsdy.github.com" rel="alternate" type="text/html"/>
+	<id>http://rsdy.github.com/</id>
+	<author>
+		<name>rhapsodhy</name>
+		<email>me@rhapsodhy.hu</email>
+	</author>
+	<updated>$timestamp$</updated>
