@@ -5,7 +5,7 @@ alias pandoc_web="pandoc -f markdown -t html5 --template=template/template.html"
 alias pandoc_xml="pandoc -f markdown -t html5 --template=template/atom-item.xml"
 
 generate_article() {
-	markdown_link="[$(head -n1 $1 |cut -d' ' -f2-)]($URL_BASE/$target) ($3)"
+	markdown_link="[$(head -n1 $1 |cut -d' ' -f2-)]($URL_BASE/$2) ($3)"
 
 	sed -i "s/^% date/% $3/" $1
 	sed -i "/^-\+\$/ a\\ * $markdown_link" README.md
