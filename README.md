@@ -6,6 +6,7 @@ technology blog](https://rsdy.blogs.balabit.com/) as well.
 
 Posts
 -----
+ * [Some Animals Are More Equal](http://rsdy.github.com/posts/cloud_computing.html) (12 January 2013)
  * [Don't write your own JSON parser, please](http://rsdy.github.com/posts/dont_write_your_json_parser_plz.html) (20 October 2012)
  * [The Horrible Moment when Everything Works](http://rsdy.github.com/posts/building_infrastructure.html) (29 September 2012)
  * [The Humbleness of the Dish](http://rsdy.github.com/posts/the_humbleness_of_the_dish.html) (18 September 2012)
