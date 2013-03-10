@@ -6,6 +6,7 @@ technology blog](https://rsdy.blogs.balabit.com/) as well.
 
 Posts
 -----
+ * [Fuck the Corporate Cloud](http://rsdy.github.com/posts/fsck_the_police.html) (10 March 2013)
  * [Some Animals Are More Equal](http://rsdy.github.com/posts/cloud_computing.html) (12 January 2013)
  * [Don't write your own JSON parser, please](http://rsdy.github.com/posts/dont_write_your_json_parser_plz.html) (20 October 2012)
  * [The Horrible Moment when Everything Works](http://rsdy.github.com/posts/building_infrastructure.html) (29 September 2012)
