@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html><head>
+	<title>Security and the Rise of Snakeoil</title>
+	<meta charset="utf-8" />
+	<link rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" />
+	<link rel="alternate" href="/atom.xml" type="application/atom+xml" title="rsdy.github.com feed" charset="utf-8" />
+	<meta name="author" content="Peter Parkanyi">
+	<meta name="dcterms.date" content="2014-06-04">
+	<style type="text/css">
+header[id='bigone'] {
+	background-color: #222;
+	font-size: 1.2em;
+	border-bottom: 0.1em solid #F30085;
+	padding: 0.3em 1em;
+}
+header a:link, header a:visited { text-decoration: none; color: #F30085; }
+header a:hover { text-decoration: underline; }
+footer {
+	font-size: small;
+	padding: 1em 50px;
+	border-top: 0.1em solid #F30085;
+}
+#header-menu { float: right; }
+#content { width: 500px; padding-left: 50px; }
+body {
+	font-family: serif;
+	margin:0;
+	padding:0;
+}
+h1 { font-family: sans-serif; }
+	</style>
+</head>
+<body>
+	<header id='bigone'>
+		<a href="https://rhapsodhy.hu">rhapsodhy.hu</a>
+		<div id='header-menu'>
+			<a href="/index.html">posts</a>
+			<a href="http://github.com/rsdy">github</a>
+			<a href="http://twitter.com/rhapsodhy">twitter</a>
+		</div>
+	</header>
+	<div id="content">
+		<article>
+			<header><h1>Security and the Rise of Snakeoil</h1><small>Published: <time datetime="2014-06-04" pubdate>04 June 2014</time></small></header>
+<p>The original of this essay was written by <a href="https://www.ctrlc.hu/~stef/blog/posts/szekuriti.html">stf</a> in Hungarian. I decided to go ahead and translate it into English because I liked it.</p>
+<p>There are more and more people who are starting to realise what sort of trap they ended up in by using the internet. While they desperately want to do something about it, they might not have the knowledge or resources to actually make the first step, like leaving Facebook or Gmail behind. Yet, people desperately want to do <em>something</em>, even if that means the online equivalent of not carrying mineral water onto airplanes. Every week we see a new NSA-proof, military grade encrypted, web-based chat application, or people with nice CVs who finally figured out how to do secure email in the browser. Self-acclaimed experts teach their peers at cryptoparties how to defend themselves against adversaries from the last decade. This article is for the latter. This game might get dangerous, and should be handled with care.</p>
+<ol type="1">
+<li>security is a conscious, multi-layered, economic process</li>
+<li>certain adversaries are more motivated, and control more resources than others</li>
+<li>defenders can only lose. they have to be prepared, and minimise the value and surface of an attack</li>
+<li>know your adversaries, the resources at their disposal, and act accordingly</li>
+<li>there are environmental/side-channel/indirect attacks</li>
+<li>there are non-technical aspects</li>
+<li>many mitigation techniques are overly expensive and inconvenient</li>
+</ol>
+<p>The more you know your device, the more you are in control over it. You should notice when it misbehaves or acts without your intent. As a corollary, when you know nothing about your device, you're naked and exposed. Therefore, mitigation measures need to form a conscious structure, and have to be continuously re-evaluated.</p>
+<p>Security is an economic process, and thus the mass majority of the non-targeted attacks can be mitigated when the you raise your cost of defence marginally above the average of the potential victims. In non-targetted attacks, the attacker still plays by the rules of economics: minimise costs, and maximise profit. As of 2014, the most economically viable targets are Windows and Adobe users, while estimates suggest that OS X users will make a juicy cut once OS X market share hits ~20% [citation needed]. As a consequence, diversity is an effective mitigation, as a custom -- competent and expensive -- system will require a custom -- and expensive -- attack. Lastly, it makes little sense to overspend on security. A classic example is spending $150 on a lock for a $50 bike.</p>
+<p>A good way to raise the cost of an attack is defence-in-depth: when plan A falls, plan B will still cause a headache for the attacker (and so it goes). Interestingly, security-by-obscurity in this case can significantly raise the costs, but only when supported by conscious, in-depth countermeasures.</p>
+<p>Since this is an economic system, the defender can only fail when met with a resourceful enough adversary. In other words, all defence will fail in face of a motivated and rich attacker.</p>
+<p>While an attacker can measure his effectiveness easily, a defender can only not fail at best. Even without an obvious failure, she can't be certain that there hadn't been a breach that went unnoticed. Sony is a good example of how amateur defenders can only fail against professionals. Minimising the amount of data we store for longer periods (e.g. half a year or more) will reduce the value of an attack, while, say, consciously controlling an online presence will reduce the attack surface on our persona.</p>
+<p>These are general best practices, and we need to know our adversary: who they are, what they are capable of, what sort of resources they have at disposal. A simplified model of adversaries might be the following: citizen, criminal, corporation, country.</p>
+<p>A citizen is of course any average user. A criminal would be any organised and less organised actor. A corporation can be Google or Facebook, but it could be just the company you work for if your internet traffic is monitored, so this is probably the broadest category of all. Last, but not least, we have countries, or rather, nation-states, in which case the adversary is probably a foreign intelligence agency, although certain politicians in opposition, political activists, journalists, or whistleblowers might warrant the attention of a domestic adversary.</p>
+<p>We also have to mention environmental or indirect attacks. An adversary might not solely attack the target, but can use (or rather, abuse) the surrounding environment, too. The defender has to think about her communication partners, if any of them may have an adversary model that is different from, or higher level than hers. The social network of a target (Facebook image tagging) contributes to the attack surface as well as any other environmental factor, since a well-motivated attacker will try to find and exploit the weakest link to the target. When that cheapest path is through a less-prepared peer, that just makes things a whole lot quicker and an economic adversary more effective.</p>
+<p>(Un)fortunately the attacks and mitigation techniques can be non-technical, and may have other aspects, such as economical, educational, social, or judicial. Many in position to change things are motivated not to. For example, the net neutrality and data protection acts are likely to become sabotaged in the European Council. It seems like there won't be any outcome from the surveillance scandal. The act about data retention was invalidated by the European High Court, but European member-states are yet to act. However, there are other judicial aspects -- citizens have to act within the boundaries of the law, while this does not apply to every actor. Some of these actors will try and undermine new legislation, or broaden their authority through existing legal structures. A few ideas that could improve the current situation:</p>
+<ol type="1">
+<li>general immunity for hackers who publicly expose security holes</li>
+<li>motivating the attacks of own infrastructures rather than pursuing it</li>
+<li>education about security, attacks, and vulnerabilities</li>
+<li>non-free software vendors' liability for handling vulnerabilities should be enforced</li>
+<li>deterrent financial liability for misuse of personal information</li>
+<li>public disclosure of, and diligent post-mortem analysis for every incident</li>
+<li>new legislation for data protection, net neutrality. end data exchange and data collection treaties and legislation</li>
+<li>free up the frequency bands that become unused after the digital dividend for unlicensed use</li>
+</ol>
+<p>Defence is difficult: many mitigation techniques are ceremonial and complicated even for the trained defender, and so she'll perform it rarely, or eventually stop the practice altogether. In many respects, these ceremonies are like brushing teeth: we're not doing it because we enjoy it so much, but rather because of the belief in a future reward such as not having to go to the dentist's, or improving our chances for reproduction. A principled approach and attention to detail are essential, just like with any implementation, see &quot;goto fail&quot;, or &quot;heartbleed&quot;. Correct code is usually not trivial, and the correct use of tools is often hard due to external constraints.</p>
+<p>Naturally, the it would be best if this whole process could be simplified, but it is also the goal of the adversary to make it as hard as possible.</p>
+<p>A'tuin is the turtle in Terry Pratchett's Discworld, on whose back 4 elephants hold the discworld on their backs. And what is below A'tuin, you ask? It's turtles all the way down. A'tuin is the perfect symbol for the endless layers of attack surfaces, that you discover if just start scratching: A'tuin -&gt; organisational -&gt; physical -&gt; psychological -&gt; browser -&gt; OS -&gt; HW -&gt; network -&gt; network OS -&gt; network HW -&gt; TEMPEST emissions -&gt; other side-channels -&gt; A'tuin.</p>
+<p>We also need to stop and talk about browsers for a minute, because people tend to create and spread all sorts of snakeoil based on the them. The reasons for using the browser as a distribution medium is none other than to externalise the costs of having to support installation on multiple systems, while introducing a huge attack surface. The age when a browser's primary goal was actually browsing websites are long gone. Browsers of today are for pushing ads into people's faces, and make them pay for various services. A good example for this is Mozilla, who wanted to push ads into the start screen of Firefox, and all they managed to get done since the Snowden revelations is making tabs shinier and putting DRM into the browser. There are 6 easy rules to identify 99% of snakeoil:</p>
+<ol type="1">
+<li>not free software</li>
+<li>runs in a browser</li>
+<li>runs on a smartphone</li>
+<li>the user doesn't generate, or exclusively own the private encryption keys</li>
+<li>there is no threat model</li>
+<li>uses terminology like &quot;cyber&quot;, &quot;military-grade&quot;, or other marketing mantra</li>
+</ol>
+<p>As a conclusion, some food for thought, in the form of 3 questions:</p>
+<ol type="1">
+<li>how often do you update your systems?</li>
+<li>how strong are your email passwords? do you reuse them for other pages, too?</li>
+<li>how many of your peers use GMail, Facebook, Skype, and do you keep in touch with them through these?</li>
+</ol>
+<p>To try estimating the footprint you leave online, check out and think about your results on <a href="https://myshadow.org">MyShadow</a>. And then welcome to the ride on A'tuin. ;)</p>
+		</article>
+	</div>
+	<footer>
+	You may tell "but you're so wrong" by sending an email to <em>me at rhapsodhy.hu</em><br>
+	This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+	</footer>
+</body></html>

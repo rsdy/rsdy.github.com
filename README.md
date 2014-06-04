@@ -6,6 +6,7 @@ technology blog](https://rsdy.blogs.balabit.com/) as well.
 
 Posts
 -----
+ * [Security and the Rise of Snakeoil](http://rsdy.github.com/posts/security_and_the_rise_of_snakeoil.html) (04 June 2014)
  * [Google Reader and the Open Web](http://rsdy.github.com/posts/greader_and_the_open_web.html) (15 March 2013)
  * [Fuck the Corporate Cloud](http://rsdy.github.com/posts/fsck_the_police.html) (10 March 2013)
  * [Some Animals Are More Equal](http://rsdy.github.com/posts/cloud_computing.html) (12 January 2013)
