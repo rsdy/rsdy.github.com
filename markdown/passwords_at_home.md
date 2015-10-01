@@ -7,10 +7,10 @@ online accounts than their password manager can remember, which is bad
 enough. Surely, using the same password everywhere would be catastrophic.
 
 Still, most people maintain terrible password policies. [Infosec
-people](https://twitter.com/SwiftOnSecurity) are working hard on
-improving the situation by educating users who take the
+celebrities](https://twitter.com/SwiftOnSecurity) are working hard on
+improving the situation by educating those users, who take the
 first step, but it's a far cry from being effective [for the average
-net user](http://cynosureprime.blogspot.com/2015/09/csp-our-take-on-cracked-am-passwords.html).
+netizen](http://cynosureprime.blogspot.com/2015/09/csp-our-take-on-cracked-am-passwords.html).
 
 So we have to educate the population about passwords and privacy in
 more effective ways. Like making a blockbuster family animation movie.
